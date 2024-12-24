@@ -1,0 +1,61 @@
+.profession-main {
+  padding: 0;
+}
+
+.profession-name {
+  font-size: 32px; /* Adjust as needed */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profession-container {
+  padding: 20px;
+}
+
+.profession-topics-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.profession-topic-card {
+  width: 350px; /* Adjust as needed */
+  height: 450px; /* Adjust as needed */
+  margin: 10px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.profession-topic-image {
+  height: 60%;
+  background-size: cover;
+  background-position: center;
+}
+
+.profession-topic-details {
+  height: 40%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+
+.profession-topic-details h3 {
+  margin: 0;
+  color: black;
+  font-size: 24px; /* Adjust as needed */
+  text-align: center;
+}
+
+.profession-topic-details p {
+  margin: 10px 0;
+  color: black;
+  font-size: 16px; /* Adjust as needed */
+  text-align: center;
+}

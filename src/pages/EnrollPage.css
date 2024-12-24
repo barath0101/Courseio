@@ -1,0 +1,60 @@
+.enroll-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  font-family: Arial, sans-serif;
+  height: 100vh;           
+}
+
+.course-outline {
+  width: 30%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.course-outline ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.course-outline li {
+  padding: 15px;
+  margin-bottom: 10px;  
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+  text-align: center; 
+}
+
+.course-outline li.active {
+  background-color: #dcdcdc;
+  font-weight: bold;
+}
+
+.lecture-content {
+  width: 70%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lecture-content .video-container {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.lecture-content iframe {
+  max-width: 100%;
+  border-radius: 8px; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+
+h2 {
+  text-align: center; 
+  margin-bottom: 20px;
+}

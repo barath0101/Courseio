@@ -1,0 +1,135 @@
+/* Main container styling */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  background-size: contain;
+}
+
+.login-left {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  width: 50%;
+  margin: 20px;
+}
+
+.login-right {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  margin-right: 200px;
+}
+
+.joker {
+  width: 500px;
+  height: 400px;
+}
+
+.login-right h1 {
+  margin: 10px 0;
+  cursor: pointer;
+  text-align: center;
+}
+
+.active-tab {
+  color: #0084ff;
+  border-bottom: 2px solid #000000;
+}
+
+/* Social login buttons */
+.social-login {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e7e7;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 48%;
+  font-size: 14px;
+}
+
+.social-btn a {
+  color: black;
+  
+  text-decoration: none;
+}
+
+.social-btn svg {
+  margin-right: 5px;
+}
+
+.divider {
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background: #e0e0e0;
+  width: 40%;
+  position: absolute;
+  top: 50%;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.options a {
+  color: #0084ff;
+  text-decoration: none;
+}
+
+.login-btn {
+  background-color: #0084ff; /* Blue color */
+  color: white; /* Ensure text is visible */
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.login-btn:hover {
+  background-color: #0073e6;
+}

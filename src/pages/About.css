@@ -1,0 +1,122 @@
+.about-container {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  padding: 35px 20px ;
+
+  background: url('D:\React Project\review-project\src\components\aboutt.png');
+  background-position:255px;
+  background-repeat:repeat;
+  
+  font-family: Arial, sans-serif;
+  color: #000000; 
+}
+
+.header-section {
+  position: relative;
+  text-align: center;
+  padding: 50px 20px;
+  margin-bottom: 120px;
+}
+
+
+
+.header-section p {
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+}
+
+.floating-images {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.floating-image {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 3px solid #fff; 
+}
+
+.image1 {
+  position: absolute;
+  top: -20px;
+  left: -40px;
+}
+
+.image2 {
+  position: absolute;
+  top: -40px;
+  right: -60px;
+}
+
+.image3 {
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+/* Additional styling for floating images if needed */
+
+.content-wrapper {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  align-items: flex-start;
+  background-color: #fff; /* White background for content section */
+  color: #000; /* Black text color for content section */
+  padding: 50px 20px;
+  text-align: left;
+}
+
+.images-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image-box {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-box img {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+}
+
+.text-section {
+  flex: 2;
+  padding-left: 40px;
+}
+
+.text-section h2 {
+  font-size: 2rem;
+  color: #0e1a3b; 
+  margin-bottom: 20px;
+}
+
+.text-section .highlight {
+  color: #0000FF; 
+}
+
+.text-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #333333; /* Darker gray text for paragraphs */
+}
